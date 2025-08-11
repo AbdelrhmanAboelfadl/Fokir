@@ -1,0 +1,330 @@
+@media (max-width: 1300px) {
+    .content h4 {
+    color: white;
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.content h1{
+    font-size: 44px;
+}
+.content p {
+    font-size: 16px;
+}
+.logo img {
+    width: 168%;
+}
+
+.contanier{
+    width: 95%;
+}
+.lists ul{
+    display: none;
+}
+.lists button{
+    display: block;
+}
+.lists button .fa-bars {
+    font-size: 23px;
+}
+.part {
+    width: 100%;
+}
+.frame {
+    width: 231px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.layout ul li i {
+    width: 28px;
+    height: 28px;
+}
+.row .col {
+    flex-basis:100%;
+}
+.title {
+    font-size: 22px;
+    padding: 27px 0px 10px 0px;
+}
+.lines span {
+    margin-block: 6px;
+    width: 195px;
+    height: 1px;
+}
+.lines::before, .lines::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    display: block;
+    background-color: var(--main-color);
+    margin: auto;
+}
+.services .contanier {
+    row-gap: 20px;
+}
+.services .contanier .box {
+    width: 236px;
+    height: 202px;
+    padding: 25px;
+    margin-top: 42px;
+}
+.services .contanier .box p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.services .container .box {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+    padding: 30px;
+    margin-top: 48px;
+    transition-duration: 0.5s;}
+.blog .container .box{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    min-height: 300px;
+    position: relative;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.contact .container form{
+    width: 100%;
+}
+.contact .container form .lable{
+    width: 100%;
+}
+.contact .container form .lable1 {
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.contact .container form .lable1 input{
+   width: 100%;
+}
+.contact .container form .lable4 input{
+   width: 100%;
+}
+footer {
+    background-color: var(--secound-color);
+    padding: 9px;
+    text-align: center;
+    margin-top: 24px;
+}
+p {
+    color: var(--p-color);
+    font-size: 11px;
+}
+
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+.content h4 {
+        font-size: 26px;
+}
+.content h1 {
+        font-size: 58px;
+    }
+.content p {
+    color: white;
+    font-size: 17px;
+    margin-top: 6px;
+}
+.logo img {
+        width: 127%;
+        .lists button .fa-bars{
+        font-size: 27px;
+    }
+    }
+    .frame {
+        width: 278px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .layout ul li i {
+        width: 33px;
+        height: 33px;
+    }
+    .title {
+        font-size: 29px;
+    }
+    .lines span {
+        width: 260px;
+        height: 2px;
+    }
+    .lines::before, .lines::after {
+        width: 132px;
+        height: 2px;
+    }
+    .services .contanier .box {
+        width: 280px;
+        height: 208px;
+    }
+    .services .contanier .box h4 {
+    font-size: 21px;
+}
+.services .contanier .box p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+   
+.blog .container .box {
+        width: 72%;
+        max-width: 600px;
+        height: auto;
+        min-height: 300px;
+        position: relative;
+        border: 2px solid var(--main-color);
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+.contact .container form .col:last-child {
+        width: 285px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (min-width: 480px) and (max-width: 650px){
+.contact .container form .col:last-child {
+        width: 350px;
+    }
+}
+@media (min-width: 577px) and (max-width: 1300px) {
+    .content h1 {
+        font-size: 66px;
+    }
+    .content p {
+        color: white;
+        font-size: 20px;
+        margin-top: 3px;
+    }
+    .logo img {
+        width: 87%;
+    }
+    .lists button .fa-bars {
+        font-size:30px;
+}
+
+.row .col {
+    flex-basis: 50%;
+}
+.contact .container form .col:last-child {
+        width: 409px;
+    }
+p {
+        color: var(--p-color);
+        font-size: 11px;
+    }
+.contact .container form .lable1{
+    gap: 20px;
+    flex-wrap: nowrap;
+}    
+.contact .container form .lable1 input {
+        width: 50%;
+    }
+    .contact .container form .lable4 input{
+        width: 20%;
+    }
+}  
+@media (min-width: 769px) and (max-width: 1300px) {
+    .content h1 {
+        font-size: 73px;
+    }
+.logo img {
+    width: 75%;
+    }
+    .part {
+        width: 50%;
+    }
+
+.content2 {
+    margin-top: 19px;
+}
+
+.blog .container .box {
+        width: 62%;
+        max-width: 600px;
+        height: auto;
+        min-height: 300px;
+        position: relative;
+        border: 2px solid var(--main-color);
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20px auto;
+    }
+.contact .container form .col:last-child {
+        width: 511px;
+    }
+.contact .container form .name{
+    width: 48%;
+    display: inline-block;
+}
+.contact .container form .mail{
+    width: 49%;
+display: inline-block;
+}
+.contact .container form .col:last-child {
+        width: 584px;
+    }
+ p {
+        font-size: 13px;  
+}
+.row .col {
+     flex-basis: 77%;
+}
+
+
+}
+@media (min-width: 993px) and (max-width: 1300px) {
+    .content h1 {
+        font-size: 73px;
+    }
+.logo img {
+        width: 70%;
+    }
+    .lists ul{
+    display: flex;
+}
+.lists button{
+    display: none;
+}
+    .frame {
+        width: 338px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .services .contanier .box {
+        width: 300px;
+        height: 221px;
+    }
+    .services .contanier .box p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .contact .container form .col:last-child {
+        width: 644px;
+    }
+
+
+}
+@media (min-width: 1181px) and (max-width: 1300px){
+    .row .col {
+       flex-basis: 50%;
+}
+}

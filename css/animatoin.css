@@ -1,0 +1,43 @@
+@keyframes inmi1 {
+    0%{
+        opacity: 1;
+        top: -25%;
+    }
+    50%{
+        opacity: 1;
+        top: 40%;
+    }
+    100%{
+        opacity: 0;
+        top: 40%;
+    }
+}
+@keyframes inmi2 {
+    0%{
+       content: " |"; 
+    }
+    10%{ 
+        content: " D |";
+    }
+     20%{ 
+        content: " De |";
+    }
+      30%{ 
+        content: " Des |";
+    }
+       40%{ 
+        content: " Desi |";
+    }
+        50%{ 
+        content: " Desig |";
+    }
+         60%{ 
+        content: " Design |";
+    }
+          80%{ 
+        content: " Designe |";
+    }
+           100%{ 
+        content: " Designer |";
+    }
+}
