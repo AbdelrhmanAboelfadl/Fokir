@@ -18,9 +18,50 @@
 .contanier{
     width: 95%;
 }
-.lists ul{
-    display: none;
+
+.lists .listcontainer{
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    height: 0px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%);
+    background-color: var(--secound-color);
+    border: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    transition: all 0.5s;
 }
+
+.lists .listcontainer.active{
+    height: 350px;
+    border: 2px solid var(--main-color);
+}
+
+.lists .listcontainer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists .listcontainer ul li {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists .listcontainer ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+
 .lists button{
     display: block;
 }
@@ -186,7 +227,9 @@ p {
 .contact .container form .col:last-child {
         width: 285px;
     }
-
+.lists .listcontainer {
+        width: 360px;
+    }
 
 
 
@@ -203,6 +246,9 @@ p {
 @media (min-width: 480px) and (max-width: 650px){
 .contact .container form .col:last-child {
         width: 350px;
+    }
+    .lists .listcontainer {
+        width: 420px;
     }
 }
 @media (min-width: 577px) and (max-width: 1300px) {
@@ -240,6 +286,9 @@ p {
     }
     .contact .container form .lable4 input{
         width: 20%;
+    }
+        .lists .listcontainer {
+        width: 440px;
     }
 }  
 @media (min-width: 769px) and (max-width: 1300px) {
@@ -288,7 +337,9 @@ display: inline-block;
 .row .col {
      flex-basis: 77%;
 }
-
+.lists .listcontainer {
+        width: 460px;
+    }
 
 }
 @media (min-width: 993px) and (max-width: 1300px) {
@@ -298,9 +349,32 @@ display: inline-block;
 .logo img {
         width: 70%;
     }
-    .lists ul{
-    display: flex;
+.lists{
+    width: 40%;
+    height: 100%;
 }
+.lists .listcontainer{
+    position: initial;
+    height: 100%;
+    width: 100%;
+    transform: initial;
+    background-color: var(--secound-color);
+    border: 0px solid transparent;
+    border-radius: 5px;
+    box-shadow: initial;
+    overflow:initial;
+    transition: all 0.5s;
+}
+.lists .listcontainer ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lists .listcontainer ul li{
+    margin-bottom: 0!important;
+}
+
 .lists button{
     display: none;
 }
