@@ -5,6 +5,7 @@ header{
     align-items: center;
     background-image:url(../pohotos/slider-01-cd8154e4.jpg) ;
     background-position: center;
+    
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -123,6 +124,10 @@ nav{
 .lists ul li a.active{
     color: var(--main-color);
 }
+.lists ul li a.active::after {
+    width: 100%;
+    left: 0;
+}
 .lists ul li a:hover{
     color: var(--main-color);
 }
@@ -151,6 +156,7 @@ nav{
     height: 100%;
     transform: translateY(-50%);
     display: none;
+    cursor: pointer;
 }
 .lists button .fa-bars{
    font-size: 40px;
